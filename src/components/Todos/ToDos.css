@@ -1,0 +1,56 @@
+.containerList {
+    width: 100%;
+}
+.seachingList {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.userImage {
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+.col-1 {
+    width: 20%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  tr:hover {background-color: rgb(92, 218, 148);}
+
+  .usuarioImg {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .btn {
+    color: black;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.userLink {
+    width: 60%;
+}
