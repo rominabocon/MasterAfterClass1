@@ -18,7 +18,7 @@ function ToDoDetailContainer() {
         })
     })
   return (
-    <div>
+    <div className='containerDetail'>
         <ToDoDetail {...toDoDetail}/>
 
     </div>
