@@ -4,22 +4,22 @@ const listtodos = [
     {
         id: '1',
         title: 'Learn React',
-        status: 'in progress',
-        user: 'All of Us',
+        status: 'In progress',
+        user: 'Comision 34740',
         date: new Date().toLocaleDateString()
     }, 
     {
         id: '2',
         title: 'Learn Context',
-        status: 'pending',
-        user: 'comision React JS',
+        status: 'Pending',
+        user: 'Comision 34740',
         date: new Date().toLocaleDateString()
     },
     {
         id: '3',
-        title: 'La proxima prepara antes',
-        status: 'in progress',
-        user: 'comision React JS',
+        title: 'Teach Routing',
+        status: 'Done',
+        user: 'rominab',
         date: new Date().toLocaleDateString()
     },
 ]
