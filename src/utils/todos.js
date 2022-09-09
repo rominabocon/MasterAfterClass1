@@ -22,6 +22,13 @@ const listtodos = [
         user: 'rominab',
         date: new Date().toLocaleDateString()
     },
+    {
+        id: '4',
+        title: 'Send repository',
+        status: 'Done',
+        user: 'rominab',
+        date: new Date().toLocaleDateString()
+    },
 ]
 
 export default listtodos;

@@ -11,6 +11,7 @@ function App() {
     <NavBar/>
     <Routes>
       <Route path='/todos/' element={<ToDoContainer/>}/>
+      <Route path='/todos/:status' element={<ToDoContainer/>}/>
       <Route path='/todo/:id' element={<ToDoDetailContainer/>}/>
       <Route path='/addToDo/' element={<ToDoForm/>}/>
     </Routes>
