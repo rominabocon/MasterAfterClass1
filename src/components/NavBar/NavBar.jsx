@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
@@ -15,7 +15,7 @@ function NavBar() {
   return (
     <>
         <div className="topnav">
-            <Link to='/'   className='active'>
+            <Link to='/home' className='active'>
                 <FontAwesomeIcon icon={faHome} className='mr-3' /> Home
             </Link>
             <Link to='/todos'>

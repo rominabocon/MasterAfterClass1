@@ -5,14 +5,14 @@ const listtodos = [
         id: '1',
         title: 'Learn React',
         status: 'In progress',
-        user: 'Comision 34740',
+        user: 'Comision 37545',
         date: new Date().toLocaleDateString()
     }, 
     {
         id: '2',
         title: 'Learn Context',
         status: 'Pending',
-        user: 'Comision 34740',
+        user: 'Comision 37545',
         date: new Date().toLocaleDateString()
     },
     {

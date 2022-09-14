@@ -6,7 +6,7 @@ function ToDo({id, user, title, date, status}) {
     return (
         <tr key={id}>
             <td className='usuarioImg'>
-                <Link  className='userLink'  to={`/todo/${id}`}>
+                <Link to={`/todo/${id}`}  className='userLink'  >
                 <img alt='profil'
                     src='https://res.cloudinary.com/hdsqazxtw/image/upload/v1600707758/coderhouse-logo.png'
                     className='userImage' />
